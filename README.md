@@ -15,3 +15,30 @@ to enable the data from the external “wd” signal to flow into the “write_d
 After that you will have to test your implementation. 
 In the test_bench, let the mux_ctrl signal = 1 to enable writing data from the alu.
 Test with different inputs and see if the final result is correct. 
+
+## Prerequisites
+
+You can use ModelSim.You can download from [here](https://www.mentor.com/company/higher_ed/modelsim-student-edition).
+
+### Cloning Project :
+To get the porject you can just get the winrar from "Clone or Download" Button at the top
+Or you can clone it by terminal in linux but you must have it to install it follow the following commands :
+```
+sudo apt-get update
+sudo apt-get install git
+```
+then you can clone it in your local machine by typing in terminal :
+```
+git clone https://github.com/AhmedSadek60/Verilog-describing-ALU-and-Register-file
+```
+If you are a Windows User don't worry git provides tool called git bash you can download it from here : - https://git-scm.com/downloads
+
+Then type in the git bash command :
+```
+git clone https://github.com/AhmedSadek60/Verilog-describing-ALU-and-Register-file
+```
+
+
+## Deployment
+
+Just import the files inside a new project and click Run.
